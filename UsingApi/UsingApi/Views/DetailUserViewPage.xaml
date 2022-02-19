@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             NavigationPage.HasNavigationBar="False"
+             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   xmlns:xct="http://xamarin.com/schemas/2020/toolkit" xmlns:control="clr-namespace:UsingApi.Controls"
+             x:Class="UsingApi.Views.DetailUserViewPage">
+    <ContentPage.Content>
+        <Grid  BackgroundColor="#e4e4e5" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"></ColumnDefinition>
+                <ColumnDefinition Width="0.4*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <control:ButtonControl FontFamily="FontAwe"
+                               TextColor="Black"
+                               FontSize="18"
+                               HorizontalOptions="Start"
+                               Grid.Column="0"
+                                   Command="{Binding GoBackCommand}"
+                                   HeightRequest="40"
+                               Text="&#xf060;" ></control:ButtonControl>
+            <StackLayout Grid.Row="1"
+                         Grid.ColumnSpan="2">
+                <Image Source="{Binding User.avatar}"
+                       VerticalOptions="Start"
+                       HeightRequest="80"
+                       HorizontalOptions="Center"
+                       WidthRequest="80"
+                       Margin="0,5,10,0">
+                </Image>
+                <Label Text="First Name:"
+                       HorizontalTextAlignment="Center">
+
+                    </Label>
+                <Label Text="{Binding User.first_name}"
+                       HorizontalTextAlignment="Center">
+
+                </Label>
+                
+                    <Label Text="Last Name:"
+                       HorizontalTextAlignment="Center">
+
+                    </Label>
+                <Label Text="{Binding User.last_name}"
+                                                           
+                       HorizontalTextAlignment="Center"
+                                                           ></Label>
+                    <Label Text="Email:"
+                       HorizontalTextAlignment="Center"
+                                                           >
+
+                    </Label>
+                <Label Text="{Binding User.email}"
+                       HorizontalTextAlignment="Center"
+                                                          ></Label>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be89a3e7-64d8-440f-bf44-a0cf8b5ced83": {
+      "ProjectGuid": "be89a3e7-64d8-440f-bf44-a0cf8b5ced83",
+      "DisplayName": "UsingApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "bbea0758-95e0-455a-892b-59fa183a66c8": {
+      "ProjectGuid": "bbea0758-95e0-455a-892b-59fa183a66c8",
+      "DisplayName": "UsingApi.Android",
+      "ColorIndex": 1
+    },
+    "87fcf573-8876-4a73-87ad-4383bcb16207": {
+      "ProjectGuid": "87fcf573-8876-4a73-87ad-4383bcb16207",
+      "DisplayName": "UsingApi.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

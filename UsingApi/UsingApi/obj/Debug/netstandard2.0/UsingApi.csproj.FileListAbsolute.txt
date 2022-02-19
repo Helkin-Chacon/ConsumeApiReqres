@@ -1,0 +1,17 @@
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\bin\Debug\netstandard2.0\UsingApi.deps.json
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\bin\Debug\netstandard2.0\UsingApi.dll
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\bin\Debug\netstandard2.0\ref\UsingApi.dll
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\bin\Debug\netstandard2.0\UsingApi.pdb
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.dll
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\ref\UsingApi.dll
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\UsingApi.pdb
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\Views\MainViewPage.xaml.g.cs
+C:\Users\Usuario\source\repos\UsingApi\UsingApi\UsingApi\obj\Debug\netstandard2.0\Views\DetailUserViewPage.xaml.g.cs

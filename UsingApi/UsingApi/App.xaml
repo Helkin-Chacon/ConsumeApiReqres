@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsingApi.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PurpleBackColor">#d668f6</Color>
+            <Color x:Key="BlueBackColor">#80d7f9</Color>
+            <!--estilo frame principal-->
+            <Style x:Key="FramePrinciapal" TargetType="Frame">
+                <Setter Property="Margin" Value="0,-20,0,0" />
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+            <!--estilo  Iconos-->
+            <Style x:Key="IconButtonFont" TargetType="Label">
+                <Setter Property="FontFamily" Value="FontAwe"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="Margin" Value="20,20,20,0"></Setter>
+               
+            </Style>
+
+            <!--estilos  collectionview-->
+            <!--estilos  frame collectionview-->
+            <Style x:Key="FrameCollection" TargetType="Frame">
+                <Setter Property="HeightRequest" Value="150"></Setter>
+                <Setter Property="HasShadow" Value="True"></Setter>
+                <Setter Property="VerticalOptions" Value="Fill"></Setter>
+                <Setter Property="CornerRadius" Value="10"></Setter>
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+            </Style>
+            <!--estilos  avatar collectionview-->
+            <Style x:Key="AvatarCollection" TargetType="Image">
+                <Setter Property="VerticalOptions" Value="Start"></Setter>
+                <Setter Property="HeightRequest" Value="50"></Setter>
+                <Setter Property="WidthRequest" Value="50"></Setter>
+                <Setter Property="Margin" Value="0,5,10,0"></Setter>
+            </Style>
+            <!--estilos  lineas decoracion collectionview-->
+            <Style x:Key="LineCollection" TargetType="Line">
+                <Setter Property="HeightRequest" Value="1"></Setter>
+                <Setter Property="Margin" Value="0"></Setter>
+                <Setter Property="Opacity" Value="0.4"></Setter>
+                <Setter Property="HorizontalOptions" Value="Start"></Setter>
+            </Style>
+
+            <!--estilos  labelsdescripcion  collectionview-->
+            <Style x:Key="DescriptionLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="9"></Setter>
+                <Setter Property="TextColor" Value="#80d7f9"></Setter>
+                <Setter Property="FontFamily" Value="RubikFontSB"></Setter>
+                
+            </Style>
+            <!--estilos  labelsinformacin  collectionview-->
+            <Style x:Key="InformationLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="12"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="Margin" Value="0,-5,0,0"></Setter>
+                <Setter Property="FontFamily" Value="RubikFont"></Setter>
+
+            </Style>
+            <!--estilos  botones  collectionview-->
+            <Style x:Key="ButtonsCollection" TargetType="Button">
+                <Setter Property="FontFamily" Value="RubikFont"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="HeightRequest" Value="30"></Setter>
+                <Setter Property="CornerRadius" Value="50"></Setter>
+                <Setter Property="WidthRequest" Value="80"></Setter>
+                <Setter Property="Padding" Value="10,5,0,5"></Setter>
+                <Setter Property="FontSize" Value="8"></Setter>
+
+            </Style>
+            <!--fin estilos  collectionview-->
+
+
+
+            <!--estilos  botones  navegacion-->
+            <!--estilos  botones  siguiente y anterior-->
+            <Style x:Key="PrevNextButton" TargetType="Button">
+                <Setter Property="HeightRequest" Value="35"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="CornerRadius" Value="10"></Setter>
+                <Setter Property="WidthRequest" Value="85"></Setter>
+                <Setter Property="FontFamily" Value="RubikFontSB"></Setter>
+                <Setter Property="FontSize" Value="9"></Setter>
+                <Setter Property="FontSize" Value="8"></Setter>
+                <Setter Property="BorderColor" Value="White"></Setter>
+                <Setter Property="BorderWidth" Value="0.5"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="VerticalOptions" Value="Center"></Setter>
+
+            </Style>
+
+            <!--estilos  botones  indicativos-->
+            <Style x:Key="IndicativeButton" TargetType="Button">
+                <Setter Property="HeightRequest" Value="35"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="CornerRadius" Value="35"></Setter>
+                <Setter Property="WidthRequest" Value="35"></Setter>
+                <Setter Property="FontFamily" Value="RubikFontSB"></Setter>
+                <Setter Property="BorderColor" Value="Gray"></Setter>
+                <Setter Property="BorderWidth" Value="0.5"></Setter>              
+                <Setter Property="VerticalOptions" Value="Center"></Setter>
+
+            </Style>
+
+
+
+            <!--estilo frame buttons save and delete-->
+            <Style x:Key="SaveButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="RubikFont"></Setter>
+                <Setter Property="FontSize" Value="8" />
+                <Setter Property="HeightRequest" Value="45" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="50" />
+                <Setter Property="BackgroundColor" Value="#98D893" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="Margin" Value="10,5,0,5" />
+                <Setter Property="Padding" Value="20,5,20,5" />
+            </Style>
+            <Style x:Key="DeleteButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="RubikFont"></Setter>
+                <Setter Property="FontSize" Value="8" />
+                <Setter Property="HeightRequest" Value="45" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="50" />
+                <Setter Property="BackgroundColor" Value="#F75E5E" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="Margin" Value="10,5,0,5" />
+                <Setter Property="Padding" Value="20,5,20,5" />
+            </Style>
+          
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
